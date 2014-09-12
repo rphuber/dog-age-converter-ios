@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA3ECBC318F05EF90077B497 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA3ECBC218F05EF90077B497 /* Foundation.framework */; };
+		BA3ECBC518F05EF90077B497 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA3ECBC418F05EF90077B497 /* CoreGraphics.framework */; };
+		BA3ECBC718F05EF90077B497 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA3ECBC618F05EF90077B497 /* UIKit.framework */; };
+		BA3ECBCD18F05EF90077B497 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA3ECBCB18F05EF90077B497 /* InfoPlist.strings */; };
+		BA3ECBCF18F05EF90077B497 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3ECBCE18F05EF90077B497 /* main.m */; };
+		BA3ECBD318F05EF90077B497 /* HBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3ECBD218F05EF90077B497 /* HBAppDelegate.m */; };
+		BA3ECBD618F05EF90077B497 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA3ECBD418F05EF90077B497 /* Main.storyboard */; };
+		BA3ECBD918F05EF90077B497 /* HBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3ECBD818F05EF90077B497 /* HBViewController.m */; };
+		BA3ECBDB18F05EF90077B497 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA3ECBDA18F05EF90077B497 /* Images.xcassets */; };
+		BA3ECBE218F05EF90077B497 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA3ECBE118F05EF90077B497 /* XCTest.framework */; };
+		BA3ECBE318F05EF90077B497 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA3ECBC218F05EF90077B497 /* Foundation.framework */; };
+		BA3ECBE418F05EF90077B497 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA3ECBC618F05EF90077B497 /* UIKit.framework */; };
+		BA3ECBEC18F05EF90077B497 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA3ECBEA18F05EF90077B497 /* InfoPlist.strings */; };
+		BA3ECBEE18F05EF90077B497 /* Dog_Age_ConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3ECBED18F05EF90077B497 /* Dog_Age_ConverterTests.m */; };
+		BA3ECBF818F05FEA0077B497 /* spacedog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA3ECBF718F05FEA0077B497 /* spacedog.jpg */; };
+		BA3ECBFA18F06DCA0077B497 /* Dog Panting 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BA3ECBF918F06DCA0077B497 /* Dog Panting 2.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA3ECBE518F05EF90077B497 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA3ECBB718F05EF90077B497 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA3ECBBE18F05EF90077B497;
+			remoteInfo = "Dog Age Converter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA3ECBBF18F05EF90077B497 /* Dog Age Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dog Age Converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA3ECBC218F05EF90077B497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BA3ECBC418F05EF90077B497 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BA3ECBC618F05EF90077B497 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BA3ECBCA18F05EF90077B497 /* Dog Age Converter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dog Age Converter-Info.plist"; sourceTree = "<group>"; };
+		BA3ECBCC18F05EF90077B497 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BA3ECBCE18F05EF90077B497 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA3ECBD018F05EF90077B497 /* Dog Age Converter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dog Age Converter-Prefix.pch"; sourceTree = "<group>"; };
+		BA3ECBD118F05EF90077B497 /* HBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBAppDelegate.h; sourceTree = "<group>"; };
+		BA3ECBD218F05EF90077B497 /* HBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBAppDelegate.m; sourceTree = "<group>"; };
+		BA3ECBD518F05EF90077B497 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA3ECBD718F05EF90077B497 /* HBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBViewController.h; sourceTree = "<group>"; };
+		BA3ECBD818F05EF90077B497 /* HBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBViewController.m; sourceTree = "<group>"; };
+		BA3ECBDA18F05EF90077B497 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BA3ECBE018F05EF90077B497 /* Dog Age ConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dog Age ConverterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA3ECBE118F05EF90077B497 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BA3ECBE918F05EF90077B497 /* Dog Age ConverterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dog Age ConverterTests-Info.plist"; sourceTree = "<group>"; };
+		BA3ECBEB18F05EF90077B497 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BA3ECBED18F05EF90077B497 /* Dog_Age_ConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog_Age_ConverterTests.m; sourceTree = "<group>"; };
+		BA3ECBF718F05FEA0077B497 /* spacedog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = spacedog.jpg; sourceTree = "<group>"; };
+		BA3ECBF918F06DCA0077B497 /* Dog Panting 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Dog Panting 2.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA3ECBBC18F05EF90077B497 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA3ECBC518F05EF90077B497 /* CoreGraphics.framework in Frameworks */,
+				BA3ECBC718F05EF90077B497 /* UIKit.framework in Frameworks */,
+				BA3ECBC318F05EF90077B497 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA3ECBDD18F05EF90077B497 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA3ECBE218F05EF90077B497 /* XCTest.framework in Frameworks */,
+				BA3ECBE418F05EF90077B497 /* UIKit.framework in Frameworks */,
+				BA3ECBE318F05EF90077B497 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA3ECBB618F05EF90077B497 = {
+			isa = PBXGroup;
+			children = (
+				BA3ECBC818F05EF90077B497 /* Dog Age Converter */,
+				BA3ECBE718F05EF90077B497 /* Dog Age ConverterTests */,
+				BA3ECBC118F05EF90077B497 /* Frameworks */,
+				BA3ECBC018F05EF90077B497 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA3ECBC018F05EF90077B497 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA3ECBBF18F05EF90077B497 /* Dog Age Converter.app */,
+				BA3ECBE018F05EF90077B497 /* Dog Age ConverterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA3ECBC118F05EF90077B497 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA3ECBC218F05EF90077B497 /* Foundation.framework */,
+				BA3ECBC418F05EF90077B497 /* CoreGraphics.framework */,
+				BA3ECBC618F05EF90077B497 /* UIKit.framework */,
+				BA3ECBE118F05EF90077B497 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA3ECBC818F05EF90077B497 /* Dog Age Converter */ = {
+			isa = PBXGroup;
+			children = (
+				BA3ECBD118F05EF90077B497 /* HBAppDelegate.h */,
+				BA3ECBD218F05EF90077B497 /* HBAppDelegate.m */,
+				BA3ECBD418F05EF90077B497 /* Main.storyboard */,
+				BA3ECBD718F05EF90077B497 /* HBViewController.h */,
+				BA3ECBD818F05EF90077B497 /* HBViewController.m */,
+				BA3ECBDA18F05EF90077B497 /* Images.xcassets */,
+				BA3ECBC918F05EF90077B497 /* Supporting Files */,
+			);
+			path = "Dog Age Converter";
+			sourceTree = "<group>";
+		};
+		BA3ECBC918F05EF90077B497 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA3ECBF918F06DCA0077B497 /* Dog Panting 2.jpg */,
+				BA3ECBF718F05FEA0077B497 /* spacedog.jpg */,
+				BA3ECBCA18F05EF90077B497 /* Dog Age Converter-Info.plist */,
+				BA3ECBCB18F05EF90077B497 /* InfoPlist.strings */,
+				BA3ECBCE18F05EF90077B497 /* main.m */,
+				BA3ECBD018F05EF90077B497 /* Dog Age Converter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA3ECBE718F05EF90077B497 /* Dog Age ConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA3ECBED18F05EF90077B497 /* Dog_Age_ConverterTests.m */,
+				BA3ECBE818F05EF90077B497 /* Supporting Files */,
+			);
+			path = "Dog Age ConverterTests";
+			sourceTree = "<group>";
+		};
+		BA3ECBE818F05EF90077B497 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA3ECBE918F05EF90077B497 /* Dog Age ConverterTests-Info.plist */,
+				BA3ECBEA18F05EF90077B497 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA3ECBBE18F05EF90077B497 /* Dog Age Converter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA3ECBF118F05EF90077B497 /* Build configuration list for PBXNativeTarget "Dog Age Converter" */;
+			buildPhases = (
+				BA3ECBBB18F05EF90077B497 /* Sources */,
+				BA3ECBBC18F05EF90077B497 /* Frameworks */,
+				BA3ECBBD18F05EF90077B497 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dog Age Converter";
+			productName = "Dog Age Converter";
+			productReference = BA3ECBBF18F05EF90077B497 /* Dog Age Converter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA3ECBDF18F05EF90077B497 /* Dog Age ConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA3ECBF418F05EF90077B497 /* Build configuration list for PBXNativeTarget "Dog Age ConverterTests" */;
+			buildPhases = (
+				BA3ECBDC18F05EF90077B497 /* Sources */,
+				BA3ECBDD18F05EF90077B497 /* Frameworks */,
+				BA3ECBDE18F05EF90077B497 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA3ECBE618F05EF90077B497 /* PBXTargetDependency */,
+			);
+			name = "Dog Age ConverterTests";
+			productName = "Dog Age ConverterTests";
+			productReference = BA3ECBE018F05EF90077B497 /* Dog Age ConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA3ECBB718F05EF90077B497 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Hubrewery;
+				TargetAttributes = {
+					BA3ECBDF18F05EF90077B497 = {
+						TestTargetID = BA3ECBBE18F05EF90077B497;
+					};
+				};
+			};
+			buildConfigurationList = BA3ECBBA18F05EF90077B497 /* Build configuration list for PBXProject "Dog Age Converter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA3ECBB618F05EF90077B497;
+			productRefGroup = BA3ECBC018F05EF90077B497 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA3ECBBE18F05EF90077B497 /* Dog Age Converter */,
+				BA3ECBDF18F05EF90077B497 /* Dog Age ConverterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA3ECBBD18F05EF90077B497 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA3ECBDB18F05EF90077B497 /* Images.xcassets in Resources */,
+				BA3ECBF818F05FEA0077B497 /* spacedog.jpg in Resources */,
+				BA3ECBFA18F06DCA0077B497 /* Dog Panting 2.jpg in Resources */,
+				BA3ECBCD18F05EF90077B497 /* InfoPlist.strings in Resources */,
+				BA3ECBD618F05EF90077B497 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA3ECBDE18F05EF90077B497 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA3ECBEC18F05EF90077B497 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA3ECBBB18F05EF90077B497 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA3ECBD918F05EF90077B497 /* HBViewController.m in Sources */,
+				BA3ECBD318F05EF90077B497 /* HBAppDelegate.m in Sources */,
+				BA3ECBCF18F05EF90077B497 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA3ECBDC18F05EF90077B497 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA3ECBEE18F05EF90077B497 /* Dog_Age_ConverterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA3ECBE618F05EF90077B497 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA3ECBBE18F05EF90077B497 /* Dog Age Converter */;
+			targetProxy = BA3ECBE518F05EF90077B497 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA3ECBCB18F05EF90077B497 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA3ECBCC18F05EF90077B497 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BA3ECBD418F05EF90077B497 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA3ECBD518F05EF90077B497 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA3ECBEA18F05EF90077B497 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA3ECBEB18F05EF90077B497 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA3ECBEF18F05EF90077B497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BA3ECBF018F05EF90077B497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA3ECBF218F05EF90077B497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dog Age Converter/Dog Age Converter-Prefix.pch";
+				INFOPLIST_FILE = "Dog Age Converter/Dog Age Converter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BA3ECBF318F05EF90077B497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dog Age Converter/Dog Age Converter-Prefix.pch";
+				INFOPLIST_FILE = "Dog Age Converter/Dog Age Converter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BA3ECBF518F05EF90077B497 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dog Age Converter.app/Dog Age Converter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dog Age Converter/Dog Age Converter-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Dog Age ConverterTests/Dog Age ConverterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BA3ECBF618F05EF90077B497 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dog Age Converter.app/Dog Age Converter";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Dog Age Converter/Dog Age Converter-Prefix.pch";
+				INFOPLIST_FILE = "Dog Age ConverterTests/Dog Age ConverterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA3ECBBA18F05EF90077B497 /* Build configuration list for PBXProject "Dog Age Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA3ECBEF18F05EF90077B497 /* Debug */,
+				BA3ECBF018F05EF90077B497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA3ECBF118F05EF90077B497 /* Build configuration list for PBXNativeTarget "Dog Age Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA3ECBF218F05EF90077B497 /* Debug */,
+				BA3ECBF318F05EF90077B497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA3ECBF418F05EF90077B497 /* Build configuration list for PBXNativeTarget "Dog Age ConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA3ECBF518F05EF90077B497 /* Debug */,
+				BA3ECBF618F05EF90077B497 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA3ECBB718F05EF90077B497 /* Project object */;
+}
